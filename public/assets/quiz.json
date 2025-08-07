@@ -1,0 +1,125 @@
+{
+    "title": "Advanced Mathematics & Science Quiz",
+    "description": "Test your knowledge with math equations, media, and fill-in-the-blank questions",
+    "timeLimit": 900,
+    "questions": [
+        {
+            "id": 1,
+            "type": "multiple-choice",
+            "question": "What is the solution to the quadratic equation \\(x^2 - 5x + 6 = 0\\)?",
+            "options": [
+                "\\(x = 2, 3\\)",
+                "\\(x = 1, 6\\)",
+                "\\(x = -2, -3\\)",
+                "\\(x = 0, 5\\)"
+            ],
+            "correctAnswer": "\\(x = 2, 3\\)",
+            "multiple": false
+        },
+        {
+            "id": 2,
+            "type": "short-answer",
+            "question": "What is the derivative of \\(f(x) = 3x^2 + 2x - 5\\)?",
+            "correctAnswer": "6x + 2"
+        },
+        {
+            "id": 3,
+            "type": "true-false",
+            "question": "The integral of \\(\\sin(x)\\) is \\(-\\cos(x) + C\\).",
+            "correctAnswer": true
+        },
+        {
+            "id": 4,
+            "type": "multiple-choice",
+            "question": "Which of the following are prime numbers? (Select all that apply)",
+            "options": ["2", "4", "7", "9", "11"],
+            "correctAnswers": ["2", "7", "11"],
+            "multiple": true
+        },
+        {
+            "id": 5,
+            "type": "audio",
+            "question": "Listen to the audio and identify the musical interval being played.",
+            "mediaUrl": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+            "options": [
+                "Perfect fifth",
+                "Major third",
+                "Minor second",
+                "Octave"
+            ],
+            "correctAnswer": "Perfect fifth",
+            "multiple": false
+        },
+        {
+            "id": 6,
+            "type": "video",
+            "question": "Watch the video and identify the scientific principle demonstrated.",
+            "mediaUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            "options": [
+                "Newton's First Law",
+                "Conservation of Energy",
+                "Ohm's Law",
+                "Archimedes' Principle"
+            ],
+            "correctAnswer": "Conservation of Energy",
+            "multiple": false
+        },
+        {
+            "id": 7,
+            "type": "multiple-choice",
+            "question": "What is the area of a circle with radius \\(r = 5\\) cm?",
+            "imageUrl": "https://picsum.photos/seed/circle-diagram/400/300.jpg",
+            "options": [
+                "\\(25\\pi\\) cm²",
+                "\\(10\\pi\\) cm²",
+                "\\(5\\pi\\) cm²",
+                "\\(50\\pi\\) cm²"
+            ],
+            "correctAnswer": "\\(25\\pi\\) cm²",
+            "multiple": false
+        },
+        {
+            "id": 8,
+            "type": "short-answer",
+            "question": "Simplify the expression: \\(\\sqrt{50} + \\sqrt{18}\\)",
+            "imageUrl": "https://picsum.photos/seed/square-roots/400/200.jpg",
+            "correctAnswer": "8√2"
+        },
+        {
+            "id": 9,
+            "type": "fill-in-the-blank",
+            "question_template": "The derivative of \\(x^2\\) is {{blank1}} and the derivative of \\(\\sin(x)\\) is {{blank2}}.",
+            "blanks": ["blank1", "blank2"],
+            "correctAnswers": {
+                "blank1": "2x",
+                "blank2": "\\cos(x)"
+            }
+        },
+        {
+            "id": 10,
+            "type": "fill-in-the-blank",
+            "question_template": "In the equation \\(E = mc^2\\), \\(E\\) represents {{blank1}}, \\(m\\) represents {{blank2}}, and \\(c\\) represents the {{blank3}}.",
+            "blanks": ["blank1", "blank2", "blank3"],
+            "correctAnswers": {
+                "blank1": "energy",
+                "blank2": "mass",
+                "blank3": "speed of light"
+            }
+        },
+        {
+            "id": 11,
+            "type": "fill-in-the-blank",
+            "question_template": "The Pythagorean theorem states that in a right triangle, \\(a^2 + b^2 = {{blank1}}\\).",
+            "blanks": ["blank1"],
+            "correctAnswers": {
+                "blank1": "c^2"
+            }
+        },
+        {
+            "id": 12,
+            "type": "true-false",
+            "question": "The equation \\(e^{i\\pi} + 1 = 0\\) is known as Euler's identity.",
+            "correctAnswer": true
+        }
+    ]
+}
